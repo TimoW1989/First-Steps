@@ -33,5 +33,36 @@ Console.WriteLine();
 //Modulo (Restwert-Operator)
 int restwert = 10 % 8;
 Console.WriteLine("Das Modulo von 10 % 8 ist " + restwert);
+Console.WriteLine();
+
+//Einfache If-Abfragen
+int alter2 = 15;
+
+if (alter2 >= 18)
+{
+    Console.WriteLine("Du darfst diese Webseite betreten! Herzlich Willkommen!");
+}
+else
+{
+    Console.WriteLine("Du darfst diese Webseite leider nicht betreten, da du noch nicht volljährig bist! Auf Wiedersehen...");
+}
+Console.WriteLine();
+
+//Kombinations-Operatoren
+int alter3 = 17;
+bool eltern = true;
+
+if (alter3 >= 18)
+{
+    Console.WriteLine("Du darfst den Kinofilm schauen!");
+}
+else if (alter3 > 16 && eltern == true)
+{
+    Console.WriteLine("Du darfst den Kinofilm zusammen mit deinen Eltern schauen!");
+}
+else
+{
+    Console.WriteLine("Du darfst nicht in den Kinosaal, tut mir Leid!");
+}
 Console.ReadKey();
 

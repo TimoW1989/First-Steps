@@ -109,5 +109,19 @@ switch (monat)
         break;
 }
 
-Console.ReadKey();
 
+Console.WriteLine("----------------------------------------------------------------------");
+
+string username;
+int alter4;
+
+Console.WriteLine("Herzlich Willkommen in meinem ersten C# Programm!");
+Console.Write("Wie lautet dein Name: ");
+username = Console.ReadLine();
+Console.WriteLine("----------------------------------------------------------------------");
+Console.WriteLine("Willkommen " + username + "!");
+Console.Write("Wie alt bist du, " + username + ": ");
+alter4 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("----------------------------------------------------------------------");
+Console.WriteLine(username + ", du bist " + alter4 + " Jahre alt!");
+Console.ReadKey();

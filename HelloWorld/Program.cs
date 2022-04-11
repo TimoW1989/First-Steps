@@ -125,3 +125,25 @@ alter4 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("----------------------------------------------------------------------");
 Console.WriteLine(username + ", du bist " + alter4 + " Jahre alt!");
 Console.ReadKey();
+
+//While und Do-While
+
+int zahl = 0;
+
+while (zahl <100)
+{
+    zahl += 1;
+    Console.WriteLine(zahl);
+}
+
+Console.WriteLine();
+Console.WriteLine();
+
+int zahl5 = 20;
+
+do
+{
+    zahl5 += 1;
+    Console.WriteLine(zahl5);
+} while (zahl5 < 10); 
+    
